@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import './MovieDetails.css'; // Importing the CSS file for styling
+import './MovieDetails.css';
 
 function MovieDetail() {
-  const { id } = useParams(); // Get movie ID from the URL
+  const { id } = useParams(); 
   const [movie, setMovie] = useState(null);
   const [error, setError] = useState(null);
 

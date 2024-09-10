@@ -5,6 +5,8 @@ import MovieDetail from './MovieDetail';
 import NavBar from './NavBar'; 
 import SignupForm from './SignUp';
 import Login from './Login';
+import Favorites from './Favorites';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         
         <Route path="/" element={<MovieList />} /> 
         <Route path="/movie/:id" element={<MovieDetail />} /> 
+        <Route path="/Favorites" element={<Favorites />} /> 
         <Route path="/SignUp" element={<SignupForm />} /> 
         <Route path="/Login" element={<Login />} /> 
 

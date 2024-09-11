@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
+import 'bootstrap-icons/font/bootstrap-icons.css'; 
 
 function NavBar() {
   const favorites = useSelector((state) => state.favorites.favorites);

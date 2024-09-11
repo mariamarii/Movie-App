@@ -28,7 +28,7 @@ function Favorites() {
               />
               <p>{movie.title}</p>
             </Link>
-              
+
               <span
                 onClick={() => handleFavoriteClick(movie)}
                 role="button"
